@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Ex1 from "./component/Ex1";
 import Ex2 from "./component/Ex2";
 import Ex3 from "./component/Ex3";
