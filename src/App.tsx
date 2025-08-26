@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Ex1 from "./component/Ex1";
+import Ex2 from "./component/Ex2";
+import Ex3 from "./component/Ex3";
+import Ex4 from "./component/Ex4";
+import Ex5 from "./component/Ex5";
+import Ex6 from "./component/Ex6";
+import Ex7 from "./component/Ex7";
+import Ex8 from "./component/Ex8";
+import Ex9 from "./component/Ex9";
+import Model from "./component/Model";
+import TodoList from "./component/TodoList";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <h1>All Components Demo</h1>
+      <Ex1 />
+      <Ex2 />
+      <Ex3 />
+      <Ex4 />
+      <Ex5 />
+      <Ex6 />
+      <Ex7 />
+      <Ex8 />
+      <Ex9 />
+    </div>
   )
 }
 
